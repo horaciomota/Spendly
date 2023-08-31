@@ -12,7 +12,9 @@ struct ContentView: View {
         VStack {
           Text("If you save 200 euros. In 3 years you gonna have €3000")
                 .font(.largeTitle)
+                .fontWeight(.semibold)
                 .foregroundColor(.blue)
+            
             
         }
         .padding()
